@@ -17,41 +17,36 @@ export default class EnemySpawner extends Phaser.GameObjects.Layer {
 		super(scene);
 
 		// volcano_Level_Set_Platformer___Spikes_png
-		const volcano_Level_Set_Platformer___Spikes_png = new Spikes(scene, -878, 530, "volcano", "Volcano Level Set_Platformer - Spikes.png");
+		const volcano_Level_Set_Platformer___Spikes_png = new Spikes(scene, 1735, 530, "volcano", "Volcano Level Set_Platformer - Spikes.png");
 		this.add(volcano_Level_Set_Platformer___Spikes_png);
 
 		// volcano_Level_Set_Environment___Lava_03_png
-		const volcano_Level_Set_Environment___Lava_03_png = new Lava(scene, -516, 530);
+		const volcano_Level_Set_Environment___Lava_03_png = new Lava(scene, 2097, 530);
 		this.add(volcano_Level_Set_Environment___Lava_03_png);
 
 		// volcano_Level_Set_Environment___Rock_01_png
-		const volcano_Level_Set_Environment___Rock_01_png = new Stone(scene, -352, 530);
+		const volcano_Level_Set_Environment___Rock_01_png = new Stone(scene, 835, 530);
 		this.add(volcano_Level_Set_Environment___Rock_01_png);
 
 		// volcano_Level_Set_Environment___Skull_png
-		const volcano_Level_Set_Environment___Skull_png = new Skull(scene, -678, 530, "volcano", "Volcano Level Set_Environment - Skull.png");
+		const volcano_Level_Set_Environment___Skull_png = new Skull(scene, 509, 530, "volcano", "Volcano Level Set_Environment - Skull.png");
 		this.add(volcano_Level_Set_Environment___Skull_png);
 
 		// volcano_Level_Set_Platformer___Spikes_png_1
-		const volcano_Level_Set_Platformer___Spikes_png_1 = new Spikes(scene, -1078, 530);
+		const volcano_Level_Set_Platformer___Spikes_png_1 = new Spikes(scene, 1535, 530);
 		this.add(volcano_Level_Set_Platformer___Spikes_png_1);
 
 		// volcano_Level_Set_Environment___Skull_png_1
-		const volcano_Level_Set_Environment___Skull_png_1 = new Skull(scene, -1248, 530, "volcano", "Volcano Level Set_Environment - Skull.png");
+		const volcano_Level_Set_Environment___Skull_png_1 = new Skull(scene, 1365, 530, "volcano", "Volcano Level Set_Environment - Skull.png");
 		this.add(volcano_Level_Set_Environment___Skull_png_1);
 
 		// volcano_Level_Set_Environment___Skull_png_2
-		const volcano_Level_Set_Environment___Skull_png_2 = new Skull(scene, -1448, 530);
+		const volcano_Level_Set_Environment___Skull_png_2 = new Skull(scene, 1165, 530);
 		this.add(volcano_Level_Set_Environment___Skull_png_2);
 
 		// volcano_Level_Set_Environment___Rock_01_png_1
-		const volcano_Level_Set_Environment___Rock_01_png_1 = new Stone(scene, -194, 530, "volcano", "Volcano Level Set_Environment - Rock 01.png");
+		const volcano_Level_Set_Environment___Rock_01_png_1 = new Stone(scene, 2419, 530, "volcano", "Volcano Level Set_Environment - Rock 01.png");
 		this.add(volcano_Level_Set_Environment___Rock_01_png_1);
-
-		// lists
-		const sprites = [volcano_Level_Set_Platformer___Spikes_png, volcano_Level_Set_Environment___Lava_03_png, volcano_Level_Set_Environment___Rock_01_png, volcano_Level_Set_Environment___Skull_png];
-
-		this.sprites = sprites;
 
 		/* START-USER-CTR-CODE */
 
@@ -62,22 +57,23 @@ export default class EnemySpawner extends Phaser.GameObjects.Layer {
 
 		this.addSpawnEvent();
 
-		//this.scene.cameras.main.zoom = 0.2;
+		this.restart();
 
 		/* END-USER-CTR-CODE */
 	}
 
-	private sprites: Array<Spikes|Lava|Stone|Skull>;
-
 	/* START-USER-CODE */
+
+	get sprites() {
+
+		return this.list as Phaser.Physics.Arcade.Image[];
+	}
 
 	restart() {
 
-		for(const obj of this.list) {
+		for (const sprite of this.sprites) {
 
-			const img = obj as Phaser.GameObjects.Image;
-
-			img.x = this.scene.cameras.main.scrollX- img.displayWidth;
+			sprite.x = this.scene.cameras.main.scrollX - sprite.displayWidth;
 		}
 	}
 
@@ -103,7 +99,7 @@ export default class EnemySpawner extends Phaser.GameObjects.Layer {
 
 		let right = 0;
 
-		for(const sprite of this.sprites) {
+		for (const sprite of this.sprites) {
 
 			if (sprite.x > right) {
 

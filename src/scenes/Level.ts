@@ -49,6 +49,9 @@ export default class Level extends Phaser.Scene {
 		const foodLayer = new FoodLayer(this);
 		this.add.existing(foodLayer);
 
+		// signpost
+		this.add.image(939, 472, "volcano", "Volcano Level Set_Environment - Signpost 02.png");
+
 		// player
 		const player = new Player(this, 181, 435);
 		this.add.existing(player);

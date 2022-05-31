@@ -27,8 +27,8 @@
                         "key": "volcano",
                         "frame": "Volcano Level Set_Collectable Object - Meat.png"
                     },
-                    "x": -1140,
-                    "y": 259
+                    "x": 794,
+                    "y": 1006
                 },
                 {
                     "type": "Image",
@@ -39,8 +39,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Apple.png"
                     },
-                    "x": -917,
-                    "y": 340
+                    "x": 478,
+                    "y": 222
                 },
                 {
                     "type": "Image",
@@ -51,8 +51,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Cherry.png"
                     },
-                    "x": -643,
-                    "y": 275
+                    "x": 687,
+                    "y": 217
                 },
                 {
                     "type": "Image",
@@ -63,8 +63,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Banana.png"
                     },
-                    "x": -831,
-                    "y": 213
+                    "x": -188,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -75,8 +75,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Apple.png"
                     },
-                    "x": -719,
-                    "y": 399
+                    "x": 1256,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -87,8 +87,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Apple.png"
                     },
-                    "x": -541,
-                    "y": 337
+                    "x": 889,
+                    "y": 287
                 },
                 {
                     "type": "Image",
@@ -99,8 +99,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Cherry.png"
                     },
-                    "x": -490,
-                    "y": 143
+                    "x": 510,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -111,8 +111,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Cherry.png"
                     },
-                    "x": -306,
-                    "y": 124
+                    "x": 72,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -123,8 +123,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Cherry.png"
                     },
-                    "x": -247,
-                    "y": 166
+                    "x": 380,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -135,8 +135,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Cherry.png"
                     },
-                    "x": -121,
-                    "y": 256
+                    "x": -58,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -147,8 +147,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Banana.png"
                     },
-                    "x": -997,
-                    "y": 108
+                    "x": 1386,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -159,8 +159,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Banana.png"
                     },
-                    "x": -935,
-                    "y": 43
+                    "x": 1516,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -171,8 +171,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Banana.png"
                     },
-                    "x": -800,
-                    "y": 14
+                    "x": 640,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -183,8 +183,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Banana.png"
                     },
-                    "x": -719,
-                    "y": 40
+                    "x": 1126,
+                    "y": 982
                 },
                 {
                     "type": "Image",
@@ -195,8 +195,8 @@
                         "key": "volcano",
                         "frame": "Tiny Caveman_Game Object - Banana.png"
                     },
-                    "x": -690,
-                    "y": 76
+                    "x": 1075,
+                    "y": 283
                 },
                 {
                     "type": "Image",
@@ -207,8 +207,8 @@
                         "key": "volcano",
                         "frame": "Volcano Level Set_Collectable Object - Meat.png"
                     },
-                    "x": -1258,
-                    "y": 202
+                    "x": 226,
+                    "y": 1006
                 },
                 {
                     "type": "Image",
@@ -219,8 +219,8 @@
                         "key": "volcano",
                         "frame": "Volcano Level Set_Collectable Object - Meat.png"
                     },
-                    "x": -1475,
-                    "y": 160
+                    "x": 972,
+                    "y": 1006
                 }
             ]
         }
@@ -231,17 +231,5 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 3
-    },
-    "lists": [
-        {
-            "id": "87b07cd2-1b53-414f-9e54-21c7729b9eac",
-            "label": "sprites",
-            "objectIds": [
-                "f7e7be4b-96d4-4b81-81f2-291001afa29a",
-                "33f0cf07-71f4-416e-a972-e427325b9d39",
-                "36e4a0eb-2ffe-400e-a856-907843db369c",
-                "96436403-83c8-4c53-9ed1-9f107626ab6e"
-            ]
-        }
-    ]
+    }
 }

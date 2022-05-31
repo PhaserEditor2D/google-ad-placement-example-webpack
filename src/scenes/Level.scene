@@ -96,6 +96,18 @@
             "nestedPrefabs": []
         },
         {
+            "type": "Image",
+            "id": "e7878800-4102-4898-b29c-6a1033020d54",
+            "label": "signpost",
+            "components": [],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Environment - Signpost 02.png"
+            },
+            "x": 939,
+            "y": 472
+        },
+        {
             "prefabId": "78e90305-30a9-4067-bda1-9e3c9644748e",
             "id": "a2192853-dc57-4f71-8d72-1e1c79a67744",
             "unlock": [

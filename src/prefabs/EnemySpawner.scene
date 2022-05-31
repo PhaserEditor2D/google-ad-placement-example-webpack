@@ -34,7 +34,7 @@
                         "key": "volcano",
                         "frame": "Volcano Level Set_Platformer - Spikes.png"
                     },
-                    "x": -878,
+                    "x": 1735,
                     "y": 530
                 },
                 {
@@ -46,7 +46,7 @@
                     ],
                     "label": "volcano_Level_Set_Environment___Lava_03_png",
                     "components": [],
-                    "x": -516,
+                    "x": 2097,
                     "y": 530
                 },
                 {
@@ -58,7 +58,7 @@
                     ],
                     "label": "volcano_Level_Set_Environment___Rock_01_png",
                     "components": [],
-                    "x": -352,
+                    "x": 835,
                     "y": 530
                 },
                 {
@@ -75,7 +75,7 @@
                         "key": "volcano",
                         "frame": "Volcano Level Set_Environment - Skull.png"
                     },
-                    "x": -678,
+                    "x": 509,
                     "y": 530
                 },
                 {
@@ -87,7 +87,7 @@
                     ],
                     "label": "volcano_Level_Set_Platformer___Spikes_png_1",
                     "components": [],
-                    "x": -1078,
+                    "x": 1535,
                     "y": 530
                 },
                 {
@@ -104,7 +104,7 @@
                         "key": "volcano",
                         "frame": "Volcano Level Set_Environment - Skull.png"
                     },
-                    "x": -1248,
+                    "x": 1365,
                     "y": 530
                 },
                 {
@@ -116,7 +116,7 @@
                     ],
                     "label": "volcano_Level_Set_Environment___Skull_png_2",
                     "components": [],
-                    "x": -1448,
+                    "x": 1165,
                     "y": 530
                 },
                 {
@@ -133,7 +133,7 @@
                         "key": "volcano",
                         "frame": "Volcano Level Set_Environment - Rock 01.png"
                     },
-                    "x": -194,
+                    "x": 2419,
                     "y": 530
                 }
             ]
@@ -145,17 +145,5 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 3
-    },
-    "lists": [
-        {
-            "id": "d45a4d49-e97e-442f-bef8-62d9a8ee9bae",
-            "label": "sprites",
-            "objectIds": [
-                "4e44795d-7980-48f8-bd4d-1a581e57b56d",
-                "eae45589-d4d3-4ded-883d-1ee455aeb31e",
-                "e007d6ab-b864-4348-9359-89aac23017ee",
-                "95619b1b-9413-4cfc-a9f8-de14844a52f4"
-            ]
-        }
-    ]
+    }
 }

@@ -87,7 +87,6 @@ export default class Level extends Phaser.Scene {
 
 	/* START-USER-CODE */
 
-
 	create() {
 
 		this.editorCreate();

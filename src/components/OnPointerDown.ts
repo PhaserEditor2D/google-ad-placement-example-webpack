@@ -30,16 +30,7 @@ export default class OnPointerDown extends UserComponent {
 
 	/* START-USER-CODE */
 
-	protected awake(): void {
-
-		this.gameObject.on("pointerdown", () => {
-
-			if(this.callback) {
-
-				this.callback();
-			}
-		});
-	}
+	// Write your code here.
 
 	/* END-USER-CODE */
 }

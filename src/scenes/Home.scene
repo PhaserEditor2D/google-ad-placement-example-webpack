@@ -34,9 +34,10 @@
             "label": "btnPlay",
             "scope": "CLASS",
             "components": [
-                "ButtonClick"
+                "SetInteractive",
+                "AdButton"
             ],
-            "ButtonClick.callback": "() => this.startGame()",
+            "AdButton.onAdBreakDone": "() => this.startGame()",
             "texture": {
                 "key": "ui",
                 "frame": "Button Pack - Green_Button Green - Play.png"

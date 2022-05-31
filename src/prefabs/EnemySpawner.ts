@@ -76,7 +76,7 @@ export default class EnemySpawner extends Phaser.GameObjects.Layer {
 		for(const obj of this.list) {
 
 			const img = obj as Phaser.GameObjects.Image;
-			
+
 			img.x = this.scene.cameras.main.scrollX- img.displayWidth;
 		}
 	}

@@ -1,13 +1,13 @@
 {
     "components": [
         {
-            "name": "PushOnClick",
+            "name": "SetInteractive",
             "baseClass": "UserComponent",
             "gameObjectType": "Phaser.GameObjects.Image",
             "properties": []
         },
         {
-            "name": "ButtonClick",
+            "name": "OnPointerDown",
             "baseClass": "UserComponent",
             "gameObjectType": "Phaser.GameObjects.GameObject",
             "properties": [
@@ -46,6 +46,53 @@
             "baseClass": "",
             "gameObjectType": "Phaser.GameObjects.GameObject",
             "properties": []
+        },
+        {
+            "name": "RewardAdButton",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "onAdViewed",
+                    "label": "On adViewed",
+                    "tooltip": "Callback for the adViewd event",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "() => void"
+                    }
+                },
+                {
+                    "name": "onAdDismissed",
+                    "label": "On adDismissed",
+                    "tooltip": "Callback fro the adDismissed event",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "() => void"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "AdButton",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "onAdBreakDone",
+                    "label": "On adBreakDone",
+                    "tooltip": "A callback for the adBreakDone event",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "() => void"
+                    }
+                }
+            ]
         }
     ],
     "meta": {

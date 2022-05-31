@@ -4,7 +4,9 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import ButtonClick from "../components/ButtonClick";
+import SetInteractive from "../components/SetInteractive";
+import OnPointerDown from "../components/OnPointerDown";
+import RewardAdButton from "../components/RewardAdButton";
 import PlayAnimation from "../components/PlayAnimation";
 /* START-USER-IMPORTS */
 import SoundManager from "../utils/SoundManager";
@@ -72,26 +74,48 @@ export default class GameOverDialog extends Phaser.GameObjects.Container {
 		this.add(pointsText);
 
 		// btnHome (components)
-		const btnHomeButtonClick = new ButtonClick(btnHome);
-		btnHomeButtonClick.callback = () => this.emit("go-home");
+		new SetInteractive(btnHome);
+		const btnHomeOnPointerDown = new OnPointerDown(btnHome);
+		btnHomeOnPointerDown.callback = () => this.emit("go-home");
 
 		// btnPlay (components)
-		const btnPlayButtonClick = new ButtonClick(btnPlay);
-		btnPlayButtonClick.callback = () => this.emit("play-again");
+		new SetInteractive(btnPlay);
+		const btnPlayRewardAdButton = new RewardAdButton(btnPlay);
+		btnPlayRewardAdButton.onAdViewed = () => this.emit("play-again");
+		btnPlayRewardAdButton.onAdDismissed = () => this.emit("go-home");
 
 		// kid (components)
 		const kidPlayAnimation = new PlayAnimation(kid);
 		kidPlayAnimation.animKey = "player-Idle";
 
+		this.btnHome = btnHome;
+		this.btnPlay = btnPlay;
 		this.itemsContainer = itemsContainer;
 		this.itemsZone = itemsZone;
 		this.pointsText = pointsText;
 
 		/* START-USER-CTR-CODE */
 
+		this.btnPlay.on("adViewed", () => {
+
+			this.emit("play-again");
+		});
+
+		this.btnPlay.on("adDismissed", () => {
+
+			this.emit("go-home");
+		});
+
+		this.btnHome.on("adBreakDone", () => {
+
+			this.emit("go-home");
+		})
+
 		/* END-USER-CTR-CODE */
 	}
 
+	private btnHome: Phaser.GameObjects.Image;
+	private btnPlay: Phaser.GameObjects.Image;
 	private itemsContainer: Phaser.GameObjects.Container;
 	private itemsZone: Phaser.GameObjects.Rectangle;
 	private pointsText: Phaser.GameObjects.Text;
@@ -101,20 +125,6 @@ export default class GameOverDialog extends Phaser.GameObjects.Container {
 	hideDialog() {
 
 		this.visible = false;
-
-		// this.scene.add.tween({
-		// 	targets: this,
-		// 	alpha: cam.scrollY,
-		// 	duration: 250,
-		// 	ease: Phaser.Math.Easing.Quadratic.Out,
-		// 	onComplete: () => {
-
-		// 		if (collectedItems.length > 0) {
-
-		// 			this.showCollectedItems(collectedItems);
-		// 		}
-		// 	}
-		// });
 	}
 
 	displayDialog(collectedItems: string[]) {
@@ -142,6 +152,8 @@ export default class GameOverDialog extends Phaser.GameObjects.Container {
 		});
 
 		SoundManager.playSound(this.scene, "sfx_swooshing", false);
+
+		RewardAdButton.getComponent(this.btnPlay).showAdButton();
 	}
 
 	private showCollectedItems(collectedItems: string[]) {

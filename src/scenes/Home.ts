@@ -4,10 +4,11 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import SoundManager from "../utils/SoundManager";
-import ButtonClick from "../components/ButtonClick";
+import SetInteractive from "../components/SetInteractive";
+import AdButton from "../components/AdButton";
 import PlayAnimation from "../components/PlayAnimation";
 /* START-USER-IMPORTS */
+import SoundManager from "../utils/SoundManager";
 /* END-USER-IMPORTS */
 
 export default class Home extends Phaser.Scene {
@@ -69,8 +70,9 @@ export default class Home extends Phaser.Scene {
 		container_1.add(volcano_Level_Set_Environment___Signpost_02_png);
 
 		// btnPlay (components)
-		const btnPlayButtonClick = new ButtonClick(btnPlay);
-		btnPlayButtonClick.callback = () => this.startGame();
+		new SetInteractive(btnPlay);
+		const btnPlayAdButton = new AdButton(btnPlay);
+		btnPlayAdButton.onAdBreakDone = () => this.startGame();
 
 		// idle_000 (components)
 		const idle_000PlayAnimation = new PlayAnimation(idle_000);

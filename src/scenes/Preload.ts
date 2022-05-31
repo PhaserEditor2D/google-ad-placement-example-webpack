@@ -44,10 +44,30 @@ export default class Preload extends Phaser.Scene {
 
 		this.load.on(Phaser.Loader.Events.PROGRESS, (p: number) => {
 
-			this.progressBar.setProgress(p);
+			// gives a space for the Ads preloading
+
+			this.progressBar.setProgress(p * 0.9);
 		});
 
-		this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("Home"));
+		this.load.on(Phaser.Loader.Events.COMPLETE, () => {
+
+			console.log("Game loader complete.");
+			console.log("Start Ads preload");
+
+			adConfig({
+				// https://developers.google.com/ad-placement/docs/preload-ads
+				preloadAdBreaks: "on",
+				// https://developers.google.com/ad-placement/docs/manual-sequence
+				onReady: () => {
+
+					console.log("Ads preloaded!");
+
+					this.progressBar.setProgress(1);
+
+					this.scene.start("Home");
+				},
+			});
+		});
 	}
 
 	/* END-USER-CODE */

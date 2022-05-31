@@ -4,7 +4,7 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import ButtonClick from "../components/ButtonClick";
+import OnPointerDown from "../components/OnPointerDown";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -32,7 +32,7 @@ export default class Button extends Phaser.GameObjects.Container {
 		this.add(btnText);
 
 		// btnImage (components)
-		new ButtonClick(btnImage);
+		new OnPointerDown(btnImage);
 
 		this.btnImage = btnImage;
 		this.btnText = btnText;

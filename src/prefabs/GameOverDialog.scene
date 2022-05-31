@@ -32,10 +32,12 @@
                     "type": "Image",
                     "id": "4c8342f6-1663-4238-b6fa-6770a5c1f407",
                     "label": "btnHome",
+                    "scope": "CLASS",
                     "components": [
-                        "ButtonClick"
+                        "SetInteractive",
+                        "OnPointerDown"
                     ],
-                    "ButtonClick.callback": "() => this.emit(\"go-home\")",
+                    "OnPointerDown.callback": "() => this.emit(\"go-home\")",
                     "texture": {
                         "key": "ui",
                         "frame": "Button Pack - Green_Button Green - Home.png"
@@ -49,10 +51,13 @@
                     "type": "Image",
                     "id": "d7497870-02aa-466e-9d15-3255e6b31b7b",
                     "label": "btnPlay",
+                    "scope": "CLASS",
                     "components": [
-                        "ButtonClick"
+                        "SetInteractive",
+                        "RewardAdButton"
                     ],
-                    "ButtonClick.callback": "() => this.emit(\"play-again\")",
+                    "RewardAdButton.onAdViewed": "() => this.emit(\"play-again\")",
+                    "RewardAdButton.onAdDismissed": "() => this.emit(\"go-home\")",
                     "texture": {
                         "key": "ui",
                         "frame": "Button Pack - Green_Button Green - Play.png"

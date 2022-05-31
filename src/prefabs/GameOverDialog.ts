@@ -4,11 +4,11 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import Level from "../scenes/Level";
 import ButtonClick from "../components/ButtonClick";
 import PlayAnimation from "../components/PlayAnimation";
 /* START-USER-IMPORTS */
 import SoundManager from "../utils/SoundManager";
+import Level from "../scenes/Level";
 /* END-USER-IMPORTS */
 
 export default class GameOverDialog extends Phaser.GameObjects.Container {

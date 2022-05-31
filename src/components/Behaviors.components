@@ -1,0 +1,59 @@
+{
+    "components": [
+        {
+            "name": "PushOnClick",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "ButtonClick",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": [
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "Callback",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "() => void"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PlayAnimation",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "animKey",
+                    "label": "Anim Key",
+                    "tooltip": "animation key",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "animation-key"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "FixedToCamera",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": []
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "exportClass": true,
+    "autoImport": true
+}

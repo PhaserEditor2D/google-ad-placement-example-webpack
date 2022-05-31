@@ -1,0 +1,165 @@
+{
+    "id": "73cc8bea-fad9-4deb-b921-25de453a9390",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Home",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "83b80a7b-12b0-4c44-8060-e976e9c1f377",
+            "label": "volcano_Level_Set_Background___Layer_00",
+            "components": [
+                "ParallaxObject"
+            ],
+            "texture": {
+                "key": "Volcano Level Set_Background - Layer 00"
+            },
+            "x": -213,
+            "y": -150,
+            "originX": 0,
+            "originY": 0,
+            "tintTopLeft": "#9c0a0a",
+            "width": 1334,
+            "height": 750
+        },
+        {
+            "type": "Image",
+            "id": "17b33834-b797-4614-afcb-e7a4f9720c5e",
+            "label": "btnPlay",
+            "scope": "CLASS",
+            "components": [
+                "ButtonClick"
+            ],
+            "ButtonClick.callback": "() => this.startGame()",
+            "texture": {
+                "key": "ui",
+                "frame": "Button Pack - Green_Button Green - Play.png"
+            },
+            "x": 400,
+            "y": 300
+        },
+        {
+            "type": "Container",
+            "id": "0a259b65-30b4-4aec-97f7-0052e796ff02",
+            "label": "container_1",
+            "components": [],
+            "x": -9,
+            "y": 163,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "list": [
+                {
+                    "type": "TileSprite",
+                    "id": "b8c6b1f9-3fc5-4777-a0c1-d17d6686d4e0",
+                    "label": "volcano_Level_Set_Background___Layer_01",
+                    "components": [
+                        "ParallaxObject"
+                    ],
+                    "texture": {
+                        "key": "Volcano Level Set_Background - Layer 01"
+                    },
+                    "y": 129,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopLeft": 0,
+                    "alphaTopRight": 0,
+                    "width": 1732,
+                    "height": 750
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "83930c8c-804d-41f8-9851-21206a8132b1",
+                    "label": "platform",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Platformer - Wooden Bridge.png"
+                    },
+                    "y": 613,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 1669,
+                    "height": 24
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ade9f9b6-005e-445a-a0a9-8431b9e0deb6",
+                    "label": "idle_000",
+                    "components": [
+                        "PlayAnimation"
+                    ],
+                    "PlayAnimation.animKey": "player-Idle",
+                    "texture": {
+                        "key": "player",
+                        "frame": "Idle_000"
+                    },
+                    "x": 1433,
+                    "y": 545,
+                    "flipX": true
+                },
+                {
+                    "type": "Image",
+                    "id": "2e931df4-735f-4979-be75-cad255effa9b",
+                    "label": "volcano_Level_Set_Platformer___Spikes_png",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Platformer - Spikes.png"
+                    },
+                    "x": 806,
+                    "y": 600
+                },
+                {
+                    "type": "Image",
+                    "id": "9158e7b9-3644-4c58-b642-e996845ce371",
+                    "label": "volcano_Level_Set_Platformer___Spikes_png_1",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Platformer - Spikes.png"
+                    },
+                    "x": 590,
+                    "y": 598
+                },
+                {
+                    "type": "Image",
+                    "id": "af17e8ac-1ee0-429e-b1b2-8934d736630b",
+                    "label": "volcano_Level_Set_Environment___Skull_png",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Environment - Skull.png"
+                    },
+                    "x": 699,
+                    "y": 583
+                },
+                {
+                    "type": "Image",
+                    "id": "b0e3c2b1-e7af-42ac-9d89-6f9326df3aeb",
+                    "label": "volcano_Level_Set_Environment___Signpost_02_png",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Environment - Signpost 02.png"
+                    },
+                    "x": 1003,
+                    "y": 554
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

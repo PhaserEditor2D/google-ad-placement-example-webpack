@@ -1,0 +1,247 @@
+{
+    "id": "19b12607-4f0d-4cff-8c45-f6abf55f486d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1200,
+        "borderHeight": 750
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "d64c0c14-7a49-4d36-9266-0088ea4196ad",
+            "label": "foodLayer",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f7e7be4b-96d4-4b81-81f2-291001afa29a",
+                    "label": "meat",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Collectable Object - Meat.png"
+                    },
+                    "x": -1140,
+                    "y": 259
+                },
+                {
+                    "type": "Image",
+                    "id": "33f0cf07-71f4-416e-a972-e427325b9d39",
+                    "label": "apple",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Apple.png"
+                    },
+                    "x": -917,
+                    "y": 340
+                },
+                {
+                    "type": "Image",
+                    "id": "36e4a0eb-2ffe-400e-a856-907843db369c",
+                    "label": "cherry",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Cherry.png"
+                    },
+                    "x": -643,
+                    "y": 275
+                },
+                {
+                    "type": "Image",
+                    "id": "96436403-83c8-4c53-9ed1-9f107626ab6e",
+                    "label": "banana",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Banana.png"
+                    },
+                    "x": -831,
+                    "y": 213
+                },
+                {
+                    "type": "Image",
+                    "id": "638dfd7f-cd13-4ef2-b772-daa940235fc2",
+                    "label": "apple_1",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Apple.png"
+                    },
+                    "x": -719,
+                    "y": 399
+                },
+                {
+                    "type": "Image",
+                    "id": "1c29a626-5f00-455f-809f-74ca3b7d2e77",
+                    "label": "apple_2",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Apple.png"
+                    },
+                    "x": -541,
+                    "y": 337
+                },
+                {
+                    "type": "Image",
+                    "id": "7e27e5fe-3512-4ccf-8158-d5c2eea4c8a1",
+                    "label": "cherry_1",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Cherry.png"
+                    },
+                    "x": -490,
+                    "y": 143
+                },
+                {
+                    "type": "Image",
+                    "id": "6b383a44-12c0-4a00-8bd9-0981c29e83f7",
+                    "label": "cherry_2",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Cherry.png"
+                    },
+                    "x": -306,
+                    "y": 124
+                },
+                {
+                    "type": "Image",
+                    "id": "322be438-a70e-463b-a73d-f48b0d991f26",
+                    "label": "cherry_3",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Cherry.png"
+                    },
+                    "x": -247,
+                    "y": 166
+                },
+                {
+                    "type": "Image",
+                    "id": "602522ba-12f7-4527-be2f-edb30f805838",
+                    "label": "cherry_4",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Cherry.png"
+                    },
+                    "x": -121,
+                    "y": 256
+                },
+                {
+                    "type": "Image",
+                    "id": "caf0440d-c2ce-4347-bc8c-5c63e2eb304a",
+                    "label": "banana_1",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Banana.png"
+                    },
+                    "x": -997,
+                    "y": 108
+                },
+                {
+                    "type": "Image",
+                    "id": "d87636ba-d369-4f24-a03f-079ef98ccaec",
+                    "label": "banana_2",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Banana.png"
+                    },
+                    "x": -935,
+                    "y": 43
+                },
+                {
+                    "type": "Image",
+                    "id": "8a84f6c6-43e2-49f1-bf54-545cb2c226a6",
+                    "label": "banana_3",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Banana.png"
+                    },
+                    "x": -800,
+                    "y": 14
+                },
+                {
+                    "type": "Image",
+                    "id": "af48f0d2-9247-4feb-bede-c50ae5254b50",
+                    "label": "banana_4",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Banana.png"
+                    },
+                    "x": -719,
+                    "y": 40
+                },
+                {
+                    "type": "Image",
+                    "id": "2b8e5b18-0222-4a95-8b03-acb8c6ead78e",
+                    "label": "banana_5",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Tiny Caveman_Game Object - Banana.png"
+                    },
+                    "x": -690,
+                    "y": 76
+                },
+                {
+                    "type": "Image",
+                    "id": "7475e8de-f7e1-49c6-b849-e273ef1f2526",
+                    "label": "meat_1",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Collectable Object - Meat.png"
+                    },
+                    "x": -1258,
+                    "y": 202
+                },
+                {
+                    "type": "Image",
+                    "id": "1506f7ff-9a45-45ee-958f-045ec09abf95",
+                    "label": "meat_2",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Collectable Object - Meat.png"
+                    },
+                    "x": -1475,
+                    "y": 160
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "87b07cd2-1b53-414f-9e54-21c7729b9eac",
+            "label": "sprites",
+            "objectIds": [
+                "f7e7be4b-96d4-4b81-81f2-291001afa29a",
+                "33f0cf07-71f4-416e-a972-e427325b9d39",
+                "36e4a0eb-2ffe-400e-a856-907843db369c",
+                "96436403-83c8-4c53-9ed1-9f107626ab6e"
+            ]
+        }
+    ]
+}

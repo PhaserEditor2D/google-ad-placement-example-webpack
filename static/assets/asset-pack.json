@@ -1,0 +1,86 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/dino.png",
+                "type": "image",
+                "key": "dino"
+            },
+            {
+                "atlasURL": "assets/atlas/player.json",
+                "textureURL": "assets/atlas/player.png",
+                "type": "atlas",
+                "key": "player"
+            },
+            {
+                "url": [
+                    "assets/audio/sfx_hit.mp3"
+                ],
+                "type": "audio",
+                "key": "sfx_hit"
+            },
+            {
+                "url": [
+                    "assets/audio/sfx_point.mp3"
+                ],
+                "type": "audio",
+                "key": "sfx_point"
+            },
+            {
+                "url": [
+                    "assets/audio/sfx_swooshing.mp3"
+                ],
+                "type": "audio",
+                "key": "sfx_swooshing"
+            },
+            {
+                "url": [
+                    "assets/audio/sfx_wing.mp3"
+                ],
+                "type": "audio",
+                "key": "sfx_wing"
+            },
+            {
+                "atlasURL": "assets/atlas/ui.json",
+                "textureURL": "assets/atlas/ui.png",
+                "type": "atlas",
+                "key": "ui"
+            },
+            {
+                "atlasURL": "assets/atlas/volcano.json",
+                "textureURL": "assets/atlas/volcano.png",
+                "type": "atlas",
+                "key": "volcano"
+            },
+            {
+                "url": "assets/Background/Volcano Level Set_Background - Layer 00.png",
+                "type": "image",
+                "key": "Volcano Level Set_Background - Layer 00"
+            },
+            {
+                "url": "assets/Background/Volcano Level Set_Background - Layer 01.png",
+                "type": "image",
+                "key": "Volcano Level Set_Background - Layer 01"
+            },
+            {
+                "url": [
+                    "assets/audio/walk.mp3"
+                ],
+                "type": "audio",
+                "key": "walk"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

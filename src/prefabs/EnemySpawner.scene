@@ -1,0 +1,161 @@
+{
+    "id": "f4a9d5f2-1667-41ce-afef-03b4c02d74bf",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapWidth": 128,
+        "snapHeight": 32,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1200,
+        "borderHeight": 750
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "00dde661-b382-4b25-a227-e8ff1f17b739",
+            "label": "layer_1",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "d6ff3cbf-a2fb-4667-b6cd-53c493ff833d",
+                    "id": "4e44795d-7980-48f8-bd4d-1a581e57b56d",
+                    "unlock": [
+                        "x",
+                        "texture",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Platformer___Spikes_png",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Platformer - Spikes.png"
+                    },
+                    "x": -878,
+                    "y": 530
+                },
+                {
+                    "prefabId": "fb84a32c-d7d4-4e23-a23d-1729e94e3284",
+                    "id": "eae45589-d4d3-4ded-883d-1ee455aeb31e",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Environment___Lava_03_png",
+                    "components": [],
+                    "x": -516,
+                    "y": 530
+                },
+                {
+                    "prefabId": "85321990-494b-4249-8d2f-92849052ddb3",
+                    "id": "e007d6ab-b864-4348-9359-89aac23017ee",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Environment___Rock_01_png",
+                    "components": [],
+                    "x": -352,
+                    "y": 530
+                },
+                {
+                    "prefabId": "932fafc7-3e91-4dbd-8bd6-c6320a768662",
+                    "id": "95619b1b-9413-4cfc-a9f8-de14844a52f4",
+                    "unlock": [
+                        "x",
+                        "texture",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Environment___Skull_png",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Environment - Skull.png"
+                    },
+                    "x": -678,
+                    "y": 530
+                },
+                {
+                    "prefabId": "d6ff3cbf-a2fb-4667-b6cd-53c493ff833d",
+                    "id": "91bcee01-3b5d-464d-8ab9-7b09b58a2e8f",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Platformer___Spikes_png_1",
+                    "components": [],
+                    "x": -1078,
+                    "y": 530
+                },
+                {
+                    "prefabId": "932fafc7-3e91-4dbd-8bd6-c6320a768662",
+                    "id": "59c988be-5be8-4cd8-8f60-3f923cae8175",
+                    "unlock": [
+                        "x",
+                        "texture",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Environment___Skull_png_1",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Environment - Skull.png"
+                    },
+                    "x": -1248,
+                    "y": 530
+                },
+                {
+                    "prefabId": "932fafc7-3e91-4dbd-8bd6-c6320a768662",
+                    "id": "8fcf12f7-bec3-4dd5-bf32-441f3a236a66",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Environment___Skull_png_2",
+                    "components": [],
+                    "x": -1448,
+                    "y": 530
+                },
+                {
+                    "prefabId": "85321990-494b-4249-8d2f-92849052ddb3",
+                    "id": "f71a88b0-84d9-410d-b63d-eab2f52a9b32",
+                    "unlock": [
+                        "x",
+                        "texture",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Environment___Rock_01_png_1",
+                    "components": [],
+                    "texture": {
+                        "key": "volcano",
+                        "frame": "Volcano Level Set_Environment - Rock 01.png"
+                    },
+                    "x": -194,
+                    "y": 530
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "d45a4d49-e97e-442f-bef8-62d9a8ee9bae",
+            "label": "sprites",
+            "objectIds": [
+                "4e44795d-7980-48f8-bd4d-1a581e57b56d",
+                "eae45589-d4d3-4ded-883d-1ee455aeb31e",
+                "e007d6ab-b864-4348-9359-89aac23017ee",
+                "95619b1b-9413-4cfc-a9f8-de14844a52f4"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "id": "9281a25e-6323-47eb-b8bc-5c0b797c8e72",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "47eb71c5-a9eb-44c5-ad6e-72c8dc94fda9",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "b90fd398-ea75-4375-ab0f-ab7d1b4a0cea",
+                    "label": "progressbar_bg_png",
+                    "components": [],
+                    "texture": {
+                        "key": "preload",
+                        "frame": "progressbar-bg.png"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "NinePatchContainer",
+                    "id": "864c9693-f5c5-42dd-bb9f-2152ba688ffc",
+                    "label": "progressbar_fg_png",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "preload",
+                        "frame": "progressbar-fg.png"
+                    },
+                    "x": 5,
+                    "y": 5,
+                    "width": 90,
+                    "height": 90,
+                    "marginLeft": 40,
+                    "marginRight": 40,
+                    "marginTop": 40,
+                    "marginBottom": 40,
+                    "ninePatchContainerOriginX": 0,
+                    "ninePatchContainerOriginY": 0
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

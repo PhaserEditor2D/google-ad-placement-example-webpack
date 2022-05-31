@@ -1,0 +1,50 @@
+{
+    "id": "db62eb27-9ee3-4139-a60c-c26da88a7695",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1200,
+        "borderHeight": 750
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "e2edd0c3-90b2-464e-9ab9-5d8f8b679adc",
+            "label": "volcano_Level_Set_Background___Layer_00",
+            "components": [
+                "ParallaxObject"
+            ],
+            "texture": {
+                "key": "Volcano Level Set_Background - Layer 00"
+            },
+            "originX": 0,
+            "originY": 0,
+            "width": 1334,
+            "height": 750
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "parallaxFactor",
+            "label": "Parallax Factor",
+            "tooltip": "The parallax factor",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

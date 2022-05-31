@@ -1,0 +1,143 @@
+{
+    "id": "f18a9fe5-3429-40fe-bd91-fd734a024240",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 20,
+        "snapHeight": 20,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "442571fb-2d27-4ea5-bef7-f3388bc3f434",
+            "label": "backgroundLayer",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "db62eb27-9ee3-4139-a60c-c26da88a7695",
+                    "id": "7ceac824-9e1d-4c07-95af-796777366e33",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "parallaxFactor"
+                    ],
+                    "label": "volcano_Level_Set_Background___Layer_00",
+                    "parallaxFactor": 0.1,
+                    "components": [
+                        "ParallaxObject"
+                    ],
+                    "x": 0,
+                    "y": -150
+                },
+                {
+                    "prefabId": "db62eb27-9ee3-4139-a60c-c26da88a7695",
+                    "id": "d6b1a15c-e948-41c3-a21f-99daea860564",
+                    "unlock": [
+                        "x",
+                        "texture",
+                        "parallaxFactor",
+                        "y"
+                    ],
+                    "label": "volcano_Level_Set_Background___Layer_01",
+                    "parallaxFactor": 0.2,
+                    "components": [
+                        "ParallaxObject"
+                    ],
+                    "texture": {
+                        "key": "Volcano Level Set_Background - Layer 01"
+                    },
+                    "x": 0,
+                    "y": -150
+                }
+            ]
+        },
+        {
+            "prefabId": "38eebb26-b1f6-4355-ae39-13f5fbd1509b",
+            "id": "2afb1655-d235-4066-847b-3cd642a57ff1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "fruitsIndicator",
+            "scope": "PUBLIC",
+            "components": [],
+            "x": 5,
+            "y": 5,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "0e921f1b-775a-4a64-8290-caa2f02ccb81",
+            "id": "18d8e211-ae00-443b-b0ab-865c90c38e43",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "platform",
+            "scope": "PUBLIC",
+            "components": [],
+            "x": 0,
+            "y": 530
+        },
+        {
+            "prefabId": "19b12607-4f0d-4cff-8c45-f6abf55f486d",
+            "id": "57a2f5c1-daba-433d-baf9-0da1c648d4c6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "foodLayer",
+            "scope": "PUBLIC",
+            "components": [],
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "78e90305-30a9-4067-bda1-9e3c9644748e",
+            "id": "a2192853-dc57-4f71-8d72-1e1c79a67744",
+            "unlock": [
+                "x",
+                "y",
+                "platform",
+                "enemiesLayer",
+                "foodLayer",
+                "fruitsIndicator"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 181,
+            "y": 435
+        },
+        {
+            "prefabId": "f4a9d5f2-1667-41ce-afef-03b4c02d74bf",
+            "id": "454a3068-1476-45cb-98cb-e357a3e05717",
+            "label": "enemiesLayer",
+            "scope": "PUBLIC",
+            "components": [],
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "63c97c5c-c302-491a-b2d1-91a62d4f9e12",
+            "id": "f317341b-ca58-41e7-aafa-17d490d959b1",
+            "unlock": [
+                "visible"
+            ],
+            "label": "gameOverDialog",
+            "scope": "PUBLIC",
+            "components": [],
+            "visible": false,
+            "nestedPrefabs": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

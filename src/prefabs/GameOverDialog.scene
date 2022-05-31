@@ -1,0 +1,172 @@
+{
+    "id": "63c97c5c-c302-491a-b2d1-91a62d4f9e12",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "fc185055-e80f-45b8-952c-26dfa68add06",
+            "label": "layer_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f024b648-17c0-4871-bcaf-28ba08745b85",
+                    "label": "popup_png",
+                    "components": [],
+                    "texture": {
+                        "key": "ui",
+                        "frame": "popup.png"
+                    },
+                    "x": 418,
+                    "y": 300
+                },
+                {
+                    "type": "Image",
+                    "id": "4c8342f6-1663-4238-b6fa-6770a5c1f407",
+                    "label": "btnHome",
+                    "components": [
+                        "ButtonClick"
+                    ],
+                    "ButtonClick.callback": "() => this.emit(\"go-home\")",
+                    "texture": {
+                        "key": "ui",
+                        "frame": "Button Pack - Green_Button Green - Home.png"
+                    },
+                    "x": 192,
+                    "y": 400,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "d7497870-02aa-466e-9d15-3255e6b31b7b",
+                    "label": "btnPlay",
+                    "components": [
+                        "ButtonClick"
+                    ],
+                    "ButtonClick.callback": "() => this.emit(\"play-again\")",
+                    "texture": {
+                        "key": "ui",
+                        "frame": "Button Pack - Green_Button Green - Play.png"
+                    },
+                    "x": 276,
+                    "y": 400,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "84889f75-7a4b-43ee-8998-372d57dcd959",
+                    "label": "kid",
+                    "components": [
+                        "PlayAnimation"
+                    ],
+                    "PlayAnimation.animKey": "player-Idle",
+                    "texture": {
+                        "key": "player",
+                        "frame": "Idle_005"
+                    },
+                    "x": 600,
+                    "y": 270,
+                    "flipX": true,
+                    "tintTopLeft": "#fff",
+                    "tintTopRight": "#fff",
+                    "tintBottomLeft": "#fff",
+                    "tintBottomRight": "#fff"
+                },
+                {
+                    "type": "Container",
+                    "id": "d00dcc8c-c0e9-4ab7-8d9b-5bbadec0834f",
+                    "label": "itemsContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 154,
+                    "y": 176,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "a1e6ada7-acfd-4898-9b6d-779056888c1c",
+                            "label": "itemsZone",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": -9,
+                            "originX": 0,
+                            "originY": 0,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "width": 370,
+                            "height": 180
+                        },
+                        {
+                            "type": "Image",
+                            "id": "65a52253-1fa0-41de-af6e-c0014068879d",
+                            "label": "volcano_Level_Set_Collectable_Object___Meat_png",
+                            "components": [],
+                            "texture": {
+                                "key": "volcano",
+                                "frame": "Volcano Level Set_Collectable Object - Meat.png"
+                            },
+                            "x": 73,
+                            "y": 73
+                        },
+                        {
+                            "type": "Image",
+                            "id": "82415e00-538b-4248-9084-4350a171d9f3",
+                            "label": "tiny_Caveman_Game_Object___Cherry_png",
+                            "components": [],
+                            "texture": {
+                                "key": "volcano",
+                                "frame": "Tiny Caveman_Game Object - Cherry.png"
+                            },
+                            "x": 192,
+                            "y": 69
+                        },
+                        {
+                            "type": "Image",
+                            "id": "120c3db6-5fb5-4977-8ba2-baca26f564e0",
+                            "label": "tiny_Caveman_Game_Object___Banana_png",
+                            "components": [],
+                            "texture": {
+                                "key": "volcano",
+                                "frame": "Tiny Caveman_Game Object - Banana.png"
+                            },
+                            "x": 270,
+                            "y": 58
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "c3d407c3-8aac-40e3-be57-ff9eba359716",
+                    "label": "pointsText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 600,
+                    "y": 367,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "points: 0",
+                    "fontFamily": "arial",
+                    "fontSize": "20px",
+                    "fontStyle": "bold",
+                    "color": "#3a2929ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

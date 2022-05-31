@@ -1,0 +1,36 @@
+{"frames": {
+
+"Button Pack - Green_Button Green - Home.png":
+{
+	"frame": {"x":0,"y":0,"w":160,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
+	"sourceSize": {"w":160,"h":160}
+},
+"Button Pack - Green_Button Green - Play.png":
+{
+	"frame": {"x":160,"y":0,"w":160,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
+	"sourceSize": {"w":160,"h":160}
+},
+"popup.png":
+{
+	"frame": {"x":0,"y":160,"w":720,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":400},
+	"sourceSize": {"w":720,"h":400}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ui.png",
+	"format": "RGBA8888",
+	"size": {"w":720,"h":560},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:87ade82fc36cbf1e71e04327d2a3d029:5d8174313c1ad479dbc11046c1ccb56f:5b04aa198265472a3c5f56958d78e97b$"
+}
+}

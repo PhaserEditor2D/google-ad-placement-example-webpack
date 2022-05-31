@@ -1,0 +1,36 @@
+{
+    "id": "0e921f1b-775a-4a64-8290-caa2f02ccb81",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "6de9e8fb-e893-4062-9841-7bac91fbc025",
+            "label": "volcano_Level_Set_Platformer___Wooden_Bridge_png",
+            "components": [],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Wooden Bridge.png"
+            },
+            "y": 342,
+            "originX": 0,
+            "originY": 0,
+            "width": 800,
+            "height": 24
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

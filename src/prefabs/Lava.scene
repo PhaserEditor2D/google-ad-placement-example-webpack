@@ -1,0 +1,37 @@
+{
+    "id": "fb84a32c-d7d4-4e23-a23d-1729e94e3284",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "Enemy",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1200,
+        "borderHeight": 750
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "fc763158-a9b1-48e4-ad0b-3de7d9c687a6",
+            "label": "volcano_Level_Set_Environment___Lava_03_png",
+            "components": [],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Environment - Lava 03.png"
+            },
+            "scaleX": 1.9547376238341077,
+            "scaleY": 1.9547376238341077,
+            "originY": 0.6815521609054738
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

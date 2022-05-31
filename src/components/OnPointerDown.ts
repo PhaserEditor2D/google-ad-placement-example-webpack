@@ -17,7 +17,15 @@ export default class OnPointerDown extends UserComponent {
 		(gameObject as any)["__OnPointerDown"] = this;
 
 		/* START-USER-CTR-CODE */
-		// Write your code here.
+
+		this.gameObject.on("pointerdown", () => {
+
+			if (this.callback) {
+
+				this.callback();
+			}
+		});
+		
 		/* END-USER-CTR-CODE */
 	}
 

@@ -60,7 +60,7 @@
                     "RewardAdButton.onAdDismissed": "() => this.emit(\"go-home\")",
                     "texture": {
                         "key": "ui",
-                        "frame": "Button Pack - Green_Button Green - Play.png"
+                        "frame": "Button Pack - Green_Button Green - Play Ad.png"
                     },
                     "x": 276,
                     "y": 400,

@@ -29,7 +29,7 @@ export default class GameOverDialog extends Phaser.GameObjects.Container {
 		this.add(btnHome);
 
 		// btnPlay
-		const btnPlay = scene.add.image(276, 400, "ui", "Button Pack - Green_Button Green - Play.png");
+		const btnPlay = scene.add.image(276, 400, "ui", "Button Pack - Green_Button Green - Play Ad.png");
 		btnPlay.scaleX = 0.5;
 		btnPlay.scaleY = 0.5;
 		this.add(btnPlay);

@@ -56,6 +56,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
 
 			this.play("player-Running", true);
 
+			console.log("play walk " + Date.now());
 			SoundManager.playSound(this.scene, "walk");
 
 			this._countJumps = 0;
@@ -129,6 +130,9 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
 			this.body.velocity.y = -600;
 
 			this.play("player-Jump Loop", true);
+
+			console.log("stop walk" + Date.now());
+			SoundManager.stopSound(this.scene, "walk");
 
 			SoundManager.playSound(this.scene, "sfx_wing", true);
 		}

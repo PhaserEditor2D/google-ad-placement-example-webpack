@@ -1,8 +1,15 @@
-# Webpack + TypeScript project template for Phaser Editor 2D
+# A demo game integrating the Google Ad Placement API
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/PhaserEditor2D/starter-template-webpack)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/PhaserEditor2D/https://github.com/PhaserEditor2D/google-ad-placement-example-webpack)
 
-A project template for Phaser 3, Webpack 5, TypeScript, and Phaser Editor 2D v3.
+This repo contains an example about how to integrate the Google H5 Ads API into a Phaser game.
+
+
+The project is based on the Webpack/TypeScript template of Phaser Editor 2D.
+
+## Tutorial
+
+This example is part of the tutorial [Integrating Google H5 Ads with Phaser Editor 2D](https://phasereditor2d.com/blog/2022/06/integrating-google-h5-ads-with-phaser-editor-2d/). I recommend reading it for a better understanding of the purpose of the game.
 
 ## First steps
 
